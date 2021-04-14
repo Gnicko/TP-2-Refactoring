@@ -1,0 +1,14 @@
+2.1)
+cliente:el switch lo remplace llamando a la funccion de la clase alquiler calcularMontoAlquiler() para que en caso de que se
+        agregue otro libro	no se tenga que modificar el switch y se resuelva con polimorfismo, al igual que reemplace el IF
+        para el bonus y llame a la funcion de la clase alquiler calcularPuntosFrecuentesAlquiler().
+
+alquiler y copia libro:elimine los get y puse funcionalidades para calcular el monto y los puntos frecuentes,
+                        de esta manera no se rompe el encapsulamiento.
+
+libro:elimine las constantes y transforme la clase libro en abstracta para que los calculos se
+      resuelvan de manera polimorfica, "Tell don´t ask"
+
+no rempace los "numero Magico" porque no se a que cuenta hacer referencia(no se de que tratara el enciado como para darle un nombre a la variable)
+
+2.2) el codigo queda mucho mas corto, mejor a la hora de ver y entender.
